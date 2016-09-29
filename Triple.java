@@ -41,8 +41,10 @@ public class Triple<T1,T2,T3> {
         this.right = right;
     }
 
-    public  toString() {
-        return"("+left+", "+middle+","+right+")"
+    //public Triple<T1, T2, T3> getTriple() {return this; }
+
+    public  String toString() {
+        return"("+left+", "+middle+","+right+")";
     }
 
 
